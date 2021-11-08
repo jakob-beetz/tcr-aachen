@@ -46,7 +46,7 @@
 		return response.json();
 		})
 		.then(function(data) {
-		L.geoJSON(data).addTo(map);
+		L.geoJSON(data).addTo(mymap);
 		});
 
 	var popup = L.popup();
